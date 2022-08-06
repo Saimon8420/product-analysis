@@ -1,9 +1,19 @@
 import React from 'react';
-
+import LoadData from '../../hooks/customHook';
 const Reviews = () => {
+    const [reviews, setReviews] = LoadData();
     return (
         <div>
-            <h2>This is review page</h2>
+            <div className='review'>
+                {reviews.map(review => (
+                    <div className='each-review'>
+                        <p>Name: {review.name}</p>
+                        <p>Review: {review.review}</p>
+                        <p>Ratings: {review.ratings}
+                        </p>
+                    </div>
+                ))}
+            </div>
         </div>
     );
 };

@@ -1,0 +1,38 @@
+[
+    {
+        "review_id": "001",
+        "name": "Latiful",
+        "review": "Very powerful bike, value for money, fun to ride,best for mileage also",
+        "ratings": "4.5 out of 5.0"
+    },
+    {
+        "review_id": "002",
+        "name": "Kabir",
+        "review": "Very powerful bike, value for money, fun to ride,best for mileage also",
+        "ratings": "4.0 out of 5.0"
+    },
+    {
+        "review_id": "003",
+        "name": "Saimon",
+        "review": "Very powerful bike, value for money, fun to ride,best for mileage also",
+        "ratings": "5.0 out of 5.0"
+    },
+    {
+        "review_id": "004",
+        "name": "Rashed",
+        "review": "Very powerful bike, value for money, fun to ride,best for mileage also",
+        "ratings": "3.5 out of 5.0"
+    },
+    {
+        "review_id": "005",
+        "name": "Rimu",
+        "review": "Very powerful bike, value for money, fun to ride,best for mileage also",
+        "ratings": "4.5 out of 5.0"
+    },
+    {
+        "review_id": "006",
+        "name": "Nakib",
+        "review": "Very powerful bike, value for money, fun to ride,best for mileage also",
+        "ratings": "4.0 out of 5.0"
+    }
+]
