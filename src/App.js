@@ -5,6 +5,7 @@ import Reviews from './components/Reviews/Reviews';
 import Dashboard from './components/Dashboard/Dashboard';
 import NotFound from './components/NotFound/NotFound';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -21,8 +22,8 @@ function App() {
 
         <Route path='*' element={<NotFound />}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
-
 export default App;
