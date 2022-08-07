@@ -1,21 +1,43 @@
+div h2 {
+    color: goldenrod;
+}
+
 .display-site {
+    background-color: blanchedalmond;
+    text-align: center;
     display: flex;
     gap: 20px;
     align-items: center;
     justify-content: space-between;
     margin: 0px 20px 0px 20px;
+    box-shadow: rgba(82, 80, 80, 0.24) 0px 3px 8px;
+    border-radius: 10px;
 }
 
 .display-site img {
-    height: 500px;
-    width: 450px;
+    height: 50%;
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.display-details {
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 10px;
+}
+
+.display-details h2 {
+    color: burlywood;
 }
 
 .review {
     display: flex;
-    /* grid-template-rows: repeat(1, 1fr); */
     gap: 20px;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 20px 20px 20px;
+    flex-direction: column;
 }
 
 .each-review {
@@ -23,4 +45,17 @@
     padding: 5px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     border-radius: 10px;
+    background-color: beige;
+}
+
+div button {
+    margin-bottom: 20px;
+    background-color: orange;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+div button:hover {
+    color: white;
 }

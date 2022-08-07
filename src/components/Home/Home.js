@@ -4,10 +4,11 @@ import { Link } from 'react-router-dom';
 import LoadData from '../../hooks/customHook';
 const Home = () => {
     const [reviews, setReviews] = LoadData();
+    const userReview = reviews.splice(3);
     return (
         <div>
             <div className='display-site'>
-                <div>
+                <div className='display-details'>
                     <h2>Yamaha MT-15 V.2</h2>
                     <h4>Dark side of Japan, your next power house. Master of Torque</h4>
                     <p>Features:</p>
@@ -17,13 +18,15 @@ const Home = () => {
                 </div>
                 <img src="https://24newsdaily.com/wp-content/uploads/2022/04/Yamaha-MT-15-V2.jpg" alt="" />
             </div>
-            <h3>Customer Reviews: {reviews.length}</h3>
+            <h2>Customer Reviews</h2>
             <div className='review'>
                 {reviews.map(review => (
                     <div className='each-review'>
-                        <p>Name: {review.name}</p>
+                        <h5>Name: {review.name}</h5>
                         <p>Review: {review.review}</p>
-                        <p>Ratings: {review.ratings}
+                        <p>
+                            <small>  Ratings: {review.ratings}
+                            </small>
                         </p>
                     </div>
                 ))}
